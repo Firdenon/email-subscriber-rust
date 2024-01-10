@@ -16,13 +16,13 @@ source_dir: .
 github:
 # Depending on when you created the repository,
 # the default branch on GitHub might have been named `master`
-branch: main
+branch: master
 # Deploy a new version on every commit to `main`!
 # Continuous Deployment, here we come!
 deploy_on_push: true
 # !!! Fill in with your details
 # e.g. LukeMathWalker/zero-to-production
-repo: <YOUR USERNAME>/<YOUR REPOSITORY NAME>
+repo: Firdenon/email-subscriber-rust
 # Active probe used by DigitalOcean's to ensure our application is healthy
 health_check:
 # The path to our health check endpoint!
